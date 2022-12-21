@@ -1,0 +1,293 @@
+.about-us{
+  display: flex;
+  padding: 97px 0px 90px 0px;
+  justify-content: space-between;
+  h2{
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-dark-80);
+    margin-top: -14px;
+  }
+  p{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-gray-60);
+    width: 80%;
+  }
+}
+
+
+.services{
+  padding: 0px 0px 97px 0px;
+  h2{
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-dark-80);
+  }
+  p{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-dark-80);
+  }
+}
+.services__row{
+  gap: 100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  margin-top: 70px;
+  padding: 0px 0px 0px 30px;
+}
+.services__card{
+  display: flex;
+  gap: 26px;
+}
+.services__bg{
+  position: relative;
+  border: 1px solid var(--color-aqua);
+  background: var(--color-aqua);
+  width: 63px;
+  height: 53px;
+}
+.services__img-one{
+  position: absolute;
+  top: -16px;
+  left: -16px;
+}
+.services__img-two{
+position: absolute;
+top: -14px;
+left: -10px;
+}
+.services__img-three{
+position: absolute;
+top: -15px;
+left: -10px;
+}
+.services__img-four{
+position: absolute;
+top: -14px;
+left: -13px;
+}
+.services__img-five{
+position: absolute;
+top: -19px;
+left: -14px;
+}
+.services__img-six{
+position: absolute;
+top: -10px;
+left: -13px;
+}
+
+
+
+
+.office h3{
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-dark-80);
+  padding: 70px 0px 30px 0px;
+}
+.office__desc p{
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-gray-60);
+}
+.office__desc{
+  display: flex;
+  width: 95%;
+  gap: 20px;
+}
+
+
+
+.purpose {
+  margin-top: 100px;
+  display: flex;
+  align-items: end;
+  padding: 0px 0px 0px 60px;
+}
+.purpose h2{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--color-dark-80);
+  padding: 0px 70px 0px 20px;
+}
+.purpose p{
+  font-weight: 700;
+  font-size: 24px;
+  color:var(--color-dark-80);
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+
+.plug-steps{
+  position: relative;
+}
+.plug-steps h3{
+  font-weight: 700;
+  font-size: 24px;
+  color:var(--color-dark-80);
+  padding: 111px 0px 81px 0px;
+}
+.plug-steps-one{
+  position: absolute;
+  left: -15px;
+  top: -50px;
+  font-weight: 700;
+  font-size: 96px;
+  color:var(--color-aqua);
+  z-index: -99999;
+}
+.plug-steps-two{
+  position: absolute;
+  left: -30px;
+  top: -50px;
+  font-weight: 700;
+  font-size: 96px;
+  color:var(--color-aqua);
+  z-index: -99999;
+}
+.plug-steps-three{
+  position: absolute;
+  left: -32px;
+  top: -50px;
+  font-weight: 700;
+  font-size: 96px;
+  color:var(--color-aqua);
+  z-index: -99999;
+}
+.plug-steps p{
+  font-weight: 700;
+  font-size: 18px;
+  color: #001E42;
+}
+.plug-steps__row{
+  display: flex;
+  gap: 150px;
+  padding: 0px 0px 0px 20px;
+}
+
+
+.prices{
+  display: flex;
+}
+.prices h2{
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--color-dark-80);
+  margin-top: 130px;
+}
+.prices p{
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-gray-60);
+  margin-top: 20px;
+}
+.prices span{
+  font-weight: 700;
+}
+.btn__down{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.download{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: 2px solid var(--color-dark-80);
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-dark-80);
+}
+.prices__card{
+  display: flex;
+  gap: 10px;
+  padding: 185px 112px 0px 30px;
+}
+.Tariff__card{
+  box-sizing: border-box;
+  border: 2px solid var(--color-gray-60);
+  width: 259px;
+  height: 321px;
+}
+.Tariff__card p{
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: var(--color-dark-80);
+}
+.Tariff__card h4{
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-dark-80);
+  margin-top: 20px;
+}
+.Tariff__card h3{
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  color: var(--color-dark-80);
+}
+.Tariff__card span{
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--color-dark-80);
+  display: flex;
+  justify-content: center;
+}
+
+
+.customers h2{
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--color-dark-80);
+  margin-top: 130px;
+}
+.customers__title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px 0px 66px 10px;
+  gap: 135px;
+}
+
+
+
+.organizations h2{
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--color-gray-50);
+}
+.organization{
+  display: flex;
+  padding: 51px 0px 60px 0px;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--color-gray-50);
+  gap: 50px;
+}
+
+.warranty{
+  width: 88%;
+  p{
+    margin-bottom: 10px;
+  }
+}
+.specific-service{
+  width: 88%;
+  p{
+    margin-bottom: 5px;
+  }
+}
+
