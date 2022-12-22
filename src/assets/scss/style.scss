@@ -32,10 +32,12 @@ input::-webkit-outer-spin-button{
   margin-left: auto;
   display: none;
 }
-@import'./include/var';
-@import'./include/fonts';
-@import './layout/header-blog';
+
 @import'./include/banner';
+@import'./include/fonts';
+@import'./include/var';
 @import'./layout/footer';
-@import'./layout/media-one';
-@import'./layout/media-two';
+@import'./layout/header-blog';
+@import'./layout/media';
+
+

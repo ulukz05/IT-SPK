@@ -67,7 +67,7 @@
   .about-us{
     margin-top: 20px;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0px 20px;
     h2{
       font-weight: 700;
       font-size: 40px;
@@ -77,10 +77,8 @@
       font-weight: 400;
       font-size: 15px;
       margin: 10px 0px 10px 0px;
+      margin-top: 20px;
     }
-  }
-  .about-us p{
-  margin-top: 20px;
   }
   .services{
     display: inline-block;
@@ -147,18 +145,18 @@
     }
     p{
       font-weight: 700;
-      font-size: 10px;
+      font-size: 15px;
     }
   }
   .plug-steps__row{
-    padding: 0px 0px 0px 75px;
+    padding: 10px 0px 0px 45px;
     flex-direction: column;
     gap: 100px;
   }
   .plug-steps-one{
     position: absolute;
-    left: -11px;
-    top: -50px;
+    left: 0px;
+    top: -40px;
     font-weight: 700;
     font-size: 76px;
     color:var(--color-aqua);
@@ -166,8 +164,8 @@
   }
   .plug-steps-two{
     position: absolute;
-    left: -17px;
-    top: -50px;
+    left: 0px;
+    top: -40px;
     font-weight: 700;
     font-size: 77px;
     color:var(--color-aqua);
@@ -175,8 +173,8 @@
   }
   .plug-steps-three{
     position: absolute;
-    left: -30px;
-    top: -50px;
+    left: 0px;
+    top: -40px;
     font-weight: 700;
     font-size: 82px;
     color:var(--color-aqua);
@@ -186,6 +184,7 @@
     flex-direction: column;
     padding: 0 20px;
     h2{
+      margin-top: 50px;
       font-weight: 700;
       font-size: 40px;
     }
@@ -207,7 +206,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    gap: 70px;
+    gap: 50px;
   }
   .customers{
     h2{
@@ -218,8 +217,56 @@
   }
   }
   .footer__title{
-    span{
-      padding: 0px 0px 0px 95px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  .upper-blog__contacts a{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  .header-blog span{
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .btn{
+    gap: 25px;
+    padding: 10px 15px;
+    width: 197px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  .ready{
+    font-weight: 400;
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+  }
+
+
+  .about-us{
+    padding: 0 20px;
+  }
+  .services__row{
+    margin-top: 40px;
+  }
+  .services__card{
+    flex-direction: column;
+  }
+  .office{
+    padding: 0 20px;
+    h3{
+      font-weight: 700;
+      font-size: 20px;
+    }
+    p{
+      font-weight: 400;
+      font-size: 13px;
     }
   }
 }

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/hamburgers.min.css">
   <link rel="stylesheet" href="./assets/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -12,7 +13,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="upper-blog">
+    <div class="upper-blog" data-aos="fade-up" data-aos-duration="1200">
       <header class="header container">
         <div class="logo">
           <img src="./assets/img/icons/logo.svg">
@@ -43,11 +44,13 @@
         <span>От <h2>315грн</h2>/мес</span>
           <span>за 1 рабочее место</span>
           <div class="button">
-            <button class="btn">Отправить заявку
-              <svg class="svg-icons">
-                <use href="./assets/img/svg-icons/svg-sprite.svg#arrow-right"></use>
-              </svg>
-            </button>
+            <a href="#personal-data">
+              <button class="btn">Отправить заявку
+                <svg class="svg-icons">
+                  <use href="./assets/img/svg-icons/svg-sprite.svg#arrow-right"></use>
+                </svg>
+              </button>
+            </a>
             <div>
               <h6 class="ready">Мы знаем как сложно найти хорошую компанию по<br> обслуживанию компьютеров в Киеве. Исправим это!</h6>
             </div>
@@ -56,7 +59,7 @@
     </div>
 
     <div class="average-blog container">
-      <div class="about-us" id="about">
+      <div class="about-us" id="about" data-aos="fade-up" data-aos-duration="1200">
         <h2 id="">  О нас</h2>
         <p>IT-SPK - сервисная компания по обслуживанию АйТи инфраструктуры для бизнеса.
            Мы небольшая команда фанатов своего дела c многолетним опытом работы. Решаем
@@ -66,7 +69,7 @@
       </div>
 
 
-      <div class="services" id="servrces">
+      <div class="services" id="servrces" data-aos="fade-up" data-aos-duration="1200">
         <h2>Услуги</h2>
         <div class="services__row">
           <div class="services__card">
@@ -110,7 +113,7 @@
           </div>
         </div>
       </div>
-      <div class="office">
+      <div class="office" data-aos="fade-up" data-aos-duration="1200">
         <div class="">
           <h3>C IT-SPK ваш офис будет работать эффективно и безотказно</h3>
           <div class="office__desc">
@@ -119,23 +122,25 @@
           </div>
         </div>
         <div class="button">
+          <a href="#personal-data">
           <button class="btn">Отправить заявку
             <svg class="svg-icons">
               <use href="./assets/img/svg-icons/svg-sprite.svg#arrow-right"></use>
             </svg>
           </button>
+          </a>
         </div>
       </div>
 
 
-      <div class="purpose">
+      <div class="purpose" data-aos="fade-up" data-aos-duration="1200">
         <img src="./assets/img/icons/purpose.svg">
         <h2>Цель IT-SPK</h2>
         <p>Сократить расходы на ИТ + оптимизировать работу = увеличить вашу прибыль и отрыв от конкурентов</p>
       </div>
 
 
-      <div class="plug-steps">
+      <div class="plug-steps" data-aos="fade-up" data-aos-duration="1200">
         <h3>Подключить обслуживание компьютеров y нас очень просто</h3>
         <div class="plug-steps__row">
           <div class="plug-steps">
@@ -154,7 +159,7 @@
       </div>
 
 
-      <div class="prices" id="price">
+      <div class="prices" id="price" data-aos="fade-up" data-aos-duration="1200">
         <div class="">
           <h2>Цены</h2>
           <p>У нас нет зарплаты или фиксированной суммы в месяц,
@@ -166,16 +171,16 @@
           <p>Оставьте заявку на обслуживание компьютеров и мы 
           подготовим предложение специально для вас</p>
           <div class="btn__down">
-            <button class="download">Прайс it
+            <a href="#" class="download">Прайс it
               <svg class="svg-icons">
                 <use href="./assets/img/svg-icons/svg-sprite.svg#arrow-down-tray"></use>
               </svg>
-            </button>
-            <button class="download">Прайс монтаж
+            </a>
+            <a href="#" class="download">Прайс монтаж
               <svg class="svg-icons">
                 <use href="./assets/img/svg-icons/svg-sprite.svg#arrow-down-tray"></use>
               </svg>
-            </button>
+            </a>
           </div>
         </div>
         <div class="prices__card">
@@ -196,7 +201,7 @@
         </div>
       </div>
 
-      <div class="customers">
+      <div class="customers" data-aos="fade-up" data-aos-duration="1200">
         <h2>Клиенты</h2>
         <div class="customers__title">
         <img src="./assets/img/customers(1).png">
@@ -208,7 +213,7 @@
       </div>
 
 
-      <div class="organizations">
+      <div class="organizations" data-aos="fade-up" data-aos-duration="1200">
         <h2>Организация IT-инфраструктуры в Киеве</h2>
         <div class="organization">
           <div class="warranty">
@@ -248,8 +253,8 @@
       </div>
     </div>
 
-    <div class="lower-blog">
-      <div class="personal-data container">
+    <div class="lower-blog" data-aos="fade-up" data-aos-duration="1200">
+      <div class="personal-data container" id="personal-data">
         <div class="">
           <h2>Оставьте заявку <br>
             на обслуживание <br>
@@ -262,11 +267,11 @@
             <input class="search" type="number" placeholder="Номер телефона*">
             <input class="search" type="email" placeholder="E-mail">
             <input class="messages" type="text" placeholder="Сообщение">
-          </form>
-          <div class="checkbox">
+
+            <div class="checkbox">
             <input type="checkbox">
             <p>
-              I agree to my email being stored and used to receive the newsletter.
+              Даю согласие на обработку персональных данных
             </p>
           </div>
           <button class="send">Отправить
@@ -274,6 +279,8 @@
               <use href="./assets/img/svg-icons/svg-sprite.svg#arrow-right"></use>
             </svg>
           </button>
+          </form>
+          
         </div>
       </div>
       <div class="footer">
@@ -290,9 +297,9 @@
         </div>
       </div>
     </div>
-
   </div>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./assets/js/all.min.js"></script>
   <script>
     let hamburger = document.querySelector('.hamburger');
@@ -301,6 +308,9 @@
       hamburger.classList.toggle('is-active');
       navCollapse.classList.toggle('is-active');
     })
-</script>
+  </script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -207,7 +207,12 @@ left: -13px;
   font-size: 14px;
   text-transform: uppercase;
   color: var(--color-dark-80);
+  transition: 0.5s;
+  cursor: pointer;
 }
+.download:hover{
+ background: var(--color-gray-40);
+ }
 .prices__card{
   display: flex;
   gap: 10px;
