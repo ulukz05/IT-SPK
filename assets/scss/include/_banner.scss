@@ -89,15 +89,15 @@ left: -13px;
   color: var(--color-dark-80);
   padding: 70px 0px 30px 0px;
 }
-.office__desc p{
-  font-weight: 400;
-  font-size: 18px;
-  color: var(--color-gray-60);
-}
 .office__desc{
   display: flex;
   width: 95%;
   gap: 20px;
+  p{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-gray-60);
+  }
 }
 
 
@@ -107,31 +107,37 @@ left: -13px;
   display: flex;
   align-items: end;
   padding: 0px 0px 0px 60px;
+  h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--color-dark-80);
+    padding: 0px 70px 0px 20px;
+  }
+  p{
+    font-weight: 700;
+    font-size: 24px;
+    color:var(--color-dark-80);
+    width: 100%;
+    margin-top: 20px;
+  }
 }
-.purpose h2{
-  font-weight: 700;
-  font-size: 48px;
-  color: var(--color-dark-80);
-  padding: 0px 70px 0px 20px;
-}
-.purpose p{
-  font-weight: 700;
-  font-size: 24px;
-  color:var(--color-dark-80);
-  width: 100%;
-  margin-top: 20px;
-}
+
 
 
 
 .plug-steps{
   position: relative;
-}
-.plug-steps h3{
-  font-weight: 700;
-  font-size: 24px;
-  color:var(--color-dark-80);
-  padding: 111px 0px 81px 0px;
+  h3{
+    font-weight: 700;
+    font-size: 24px;
+    color:var(--color-dark-80);
+    padding: 111px 0px 81px 0px;
+  }
+  p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #001E42;
+  }
 }
 .plug-steps-one{
   position: absolute;
@@ -160,11 +166,6 @@ left: -13px;
   color:var(--color-aqua);
   z-index: -99999;
 }
-.plug-steps p{
-  font-weight: 700;
-  font-size: 18px;
-  color: #001E42;
-}
 .plug-steps__row{
   display: flex;
   gap: 150px;
@@ -174,21 +175,21 @@ left: -13px;
 
 .prices{
   display: flex;
-}
-.prices h2{
-  font-weight: 700;
-  font-size: 50px;
-  color: var(--color-dark-80);
-  margin-top: 130px;
-}
-.prices p{
-  font-weight: 400;
-  font-size: 18px;
-  color: var(--color-gray-60);
-  margin-top: 20px;
-}
-.prices span{
-  font-weight: 700;
+  h2{
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-dark-80);
+    margin-top: 130px;
+  }
+  p{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-gray-60);
+    margin-top: 20px;
+  }
+  span{
+    font-weight: 700;
+  }
 }
 .btn__down{
   display: flex;
@@ -218,38 +219,38 @@ left: -13px;
   gap: 10px;
   padding: 185px 112px 0px 30px;
 }
-.Tariff__card{
+.tariff__card{
   box-sizing: border-box;
   border: 2px solid var(--color-gray-60);
   width: 259px;
   height: 321px;
-}
-.Tariff__card p{
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  color: var(--color-dark-80);
-}
-.Tariff__card h4{
-  font-weight: 700;
-  font-size: 26px;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--color-dark-80);
-  margin-top: 20px;
-}
-.Tariff__card h3{
-  font-weight: 700;
-  font-size: 70px;
-  text-align: center;
-  color: var(--color-dark-80);
-}
-.Tariff__card span{
-  font-weight: 400;
-  font-size: 20px;
-  color: var(--color-dark-80);
-  display: flex;
-  justify-content: center;
+  p{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--color-dark-80);
+  }
+  h4{
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-dark-80);
+    margin-top: 20px;
+  }
+  h3{
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    color: var(--color-dark-80);
+  }
+  span{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-dark-80);
+    display: flex;
+    justify-content: center;
+  }
 }
 
 

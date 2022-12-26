@@ -131,16 +131,15 @@ input::-webkit-outer-spin-button {
   padding: 70px 0px 30px 0px;
 }
 
-.office__desc p {
-  font-weight: 400;
-  font-size: 18px;
-  color: var(--color-gray-60);
-}
-
 .office__desc {
   display: flex;
   width: 95%;
   gap: 20px;
+}
+.office__desc p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-gray-60);
 }
 
 .purpose {
@@ -149,14 +148,12 @@ input::-webkit-outer-spin-button {
   align-items: end;
   padding: 0px 0px 0px 60px;
 }
-
 .purpose h2 {
   font-weight: 700;
   font-size: 48px;
   color: var(--color-dark-80);
   padding: 0px 70px 0px 20px;
 }
-
 .purpose p {
   font-weight: 700;
   font-size: 24px;
@@ -168,12 +165,16 @@ input::-webkit-outer-spin-button {
 .plug-steps {
   position: relative;
 }
-
 .plug-steps h3 {
   font-weight: 700;
   font-size: 24px;
   color: var(--color-dark-80);
   padding: 111px 0px 81px 0px;
+}
+.plug-steps p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #001E42;
 }
 
 .plug-steps-one {
@@ -206,12 +207,6 @@ input::-webkit-outer-spin-button {
   z-index: -99999;
 }
 
-.plug-steps p {
-  font-weight: 700;
-  font-size: 18px;
-  color: #001E42;
-}
-
 .plug-steps__row {
   display: flex;
   gap: 150px;
@@ -221,21 +216,18 @@ input::-webkit-outer-spin-button {
 .prices {
   display: flex;
 }
-
 .prices h2 {
   font-weight: 700;
   font-size: 50px;
   color: var(--color-dark-80);
   margin-top: 130px;
 }
-
 .prices p {
   font-weight: 400;
   font-size: 18px;
   color: var(--color-gray-60);
   margin-top: 20px;
 }
-
 .prices span {
   font-weight: 700;
 }
@@ -272,21 +264,19 @@ input::-webkit-outer-spin-button {
   padding: 185px 112px 0px 30px;
 }
 
-.Tariff__card {
+.tariff__card {
   box-sizing: border-box;
   border: 2px solid var(--color-gray-60);
   width: 259px;
   height: 321px;
 }
-
-.Tariff__card p {
+.tariff__card p {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
   color: var(--color-dark-80);
 }
-
-.Tariff__card h4 {
+.tariff__card h4 {
   font-weight: 700;
   font-size: 26px;
   text-align: center;
@@ -294,15 +284,13 @@ input::-webkit-outer-spin-button {
   color: var(--color-dark-80);
   margin-top: 20px;
 }
-
-.Tariff__card h3 {
+.tariff__card h3 {
   font-weight: 700;
   font-size: 70px;
   text-align: center;
   color: var(--color-dark-80);
 }
-
-.Tariff__card span {
+.tariff__card span {
   font-weight: 400;
   font-size: 20px;
   color: var(--color-dark-80);
@@ -400,7 +388,6 @@ input::-webkit-outer-spin-button {
   align-items: center;
   justify-content: space-around;
 }
-
 .personal-data h2 {
   font-weight: 700;
   font-size: 36px;
@@ -454,7 +441,6 @@ input::-webkit-outer-spin-button {
   gap: 10px;
   margin-top: 20px;
 }
-
 .checkbox p {
   font-weight: 400;
   font-size: 10px;
@@ -495,7 +481,6 @@ input::-webkit-outer-spin-button {
   color: var(--color-gray-10);
   padding: 0px 0px 10px 0px;
 }
-
 .lower-blog__contacts span {
   margin-left: auto;
   display: flex;
@@ -504,20 +489,21 @@ input::-webkit-outer-spin-button {
   font-weight: 400;
   font-size: 12px;
 }
-
 .lower-blog__contacts a {
   font-weight: 700;
   font-size: 18px;
   color: var(--color-gray-10);
 }
 
+.footer__title {
+  text-align: end;
+}
 .footer__title p {
   font-weight: 400;
   font-size: 18px;
   color: var(--color-aqua);
   text-align: right;
 }
-
 .footer__title span {
   font-weight: 400;
   font-size: 18px;
@@ -529,43 +515,6 @@ input::-webkit-outer-spin-button {
   width: 100%;
 }
 
-@media screen and (max-width: 920px) {
-  .personal-data {
-    flex-direction: column;
-  }
-  .footer {
-    padding: 100px 0px 100px 0px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .lower-blog__contacts {
-    text-align: center;
-    padding: 0px 0px 0px 20px;
-  }
-  .personal-data h2 {
-    font-weight: 700;
-    font-size: 20px;
-  }
-  .footer__blog,
-.search,
-.messages,
-.send {
-    width: 100%;
-    margin: 15px auto;
-  }
-  .checkbox {
-    padding: 0px 0px 0px 50px;
-  }
-  .footer__title p {
-    text-align: center !important;
-  }
-}
-@media screen and (max-width: 320px) {
-  .lower-blog__contacts {
-    text-align: center;
-    padding: 0px 0px 0px 20px;
-  }
-}
 .upper-blog {
   background: url("../img/header-bg.png") no-repeat;
   background-size: cover;
@@ -675,7 +624,6 @@ input::-webkit-outer-spin-button {
   font-weight: 400;
   font-size: 12px;
 }
-
 .upper-blog__contacts a {
   font-weight: 700;
   font-size: 17px;
@@ -688,14 +636,12 @@ input::-webkit-outer-spin-button {
   color: var(--color-aqua);
   margin-top: 37px;
 }
-
 .header-blog p {
   font-weight: 900;
   font-size: 18px;
   color: var(--color-aqua);
   margin: 57px 0px 10px 0px;
 }
-
 .header-blog span {
   display: flex;
   align-items: center;
@@ -951,6 +897,32 @@ input::-webkit-outer-spin-button {
     display: flex;
     align-items: center;
   }
+  .personal-data {
+    flex-direction: column;
+  }
+  .footer {
+    padding: 100px 0px 100px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lower-blog__contacts {
+    text-align: center;
+    padding: 0px 0px 0px 20px;
+  }
+  .personal-data h2 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .footer__blog,
+.search,
+.messages,
+.send {
+    width: 100%;
+    margin: 15px auto;
+  }
+  .footer__title p {
+    text-align: center !important;
+  }
 }
 @media screen and (max-width: 320px) {
   .upper-blog__contacts a {
@@ -994,6 +966,10 @@ input::-webkit-outer-spin-button {
   .office p {
     font-weight: 400;
     font-size: 13px;
+  }
+  .lower-blog__contacts {
+    text-align: center;
+    padding: 0px 0px 0px 20px;
   }
 }
 
