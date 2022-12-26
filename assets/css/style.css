@@ -713,6 +713,12 @@ input::-webkit-outer-spin-button {
     flex-direction: column;
     margin: 20px 0;
   }
+  .nav__link:before {
+    display: none;
+  }
+  .nav__link::after {
+    display: none;
+  }
   .nav-collapse.is-active {
     max-height: 500px;
     padding-top: 40px;
